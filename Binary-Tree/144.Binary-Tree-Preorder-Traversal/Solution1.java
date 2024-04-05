@@ -1,5 +1,5 @@
 // Assumption:
-// Input BST is not null
+// Input binary tree is not null
 
 // Example:
 //                    1
@@ -37,7 +37,7 @@
 class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
         // Base case:
-        //!!! the base case of BST is not the leaf node, it is the children of leaf node which is null
+        //!!! the base case of binary tree is not the leaf node, it is the children of leaf node which is null
         if (root == null) {
             return new ArrayList<>();
         }

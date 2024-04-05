@@ -1,5 +1,5 @@
 // Assumption:
-// Input BST is not null
+// Input binary tree is not null
 
 // Example:
 //                    1
@@ -18,7 +18,7 @@
 // 3. Print root
 
 // Time Complexity: O(N), where N is the number of nodes in the input
-// Space Complexity (call stack): O(H), where H is the height of the input BST
+// Space Complexity (call stack): O(H), where H is the height of the input binary tree
 
 /**
  * Definition for a binary tree node.
@@ -38,7 +38,7 @@
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
         // Base case:
-        //!!! the base case of BST is not the leaf node, it is the children of leaf node which is null
+        //!!! the base case of binary tree is not the leaf node, it is the children of leaf node which is null
         if (root == null) {
             return new ArrayList<>();
         }

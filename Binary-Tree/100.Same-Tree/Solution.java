@@ -15,8 +15,8 @@
 
 // Observation:
 // In order to be the same tree, the following properties must be satisfied at the same time
-// 1. Left Node of the Left-Subtree of Tree p = Left Node of the Left-Subtree of Tree q
-// 1. Right Node of the Right-Subtree of Tree p = Right Node of the Right-Subtree of Tree q
+// 1. Left Children of Tree p = Left Children of Tree q
+// 1. Right Children Tree p = Right Children of Tree q
 
 // Algorithm: Recursion
 // !!!Base case:
